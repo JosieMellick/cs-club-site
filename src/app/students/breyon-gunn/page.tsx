@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/image";
 
 interface Project {
   name: string;
@@ -81,6 +81,13 @@ export default function Home() {
         "A real-time video streaming application that allows mobile phones to stream video to an admin panel using WebRTC technology.",
       image: "/images/breyon/videocam.svg",
       link: "/students/breyon-gunn/pulse-view-capture",
+      external: false,
+    },
+    {
+      name: "Stadium Networking",
+      description: "An analysis of the networking infrastructure of a stadium.",
+      image: "/images/breyon/networking.svg",
+      link: "/students/breyon-gunn/networks",
       external: false,
     },
   ];
